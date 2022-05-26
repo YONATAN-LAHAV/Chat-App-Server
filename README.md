@@ -21,4 +21,4 @@ now you have the client side which shows the chat and the server side which show
 
 pay attention to the following :
 
-1)the api-server is runing on port 7182 and can communicate with localhost:3000, and localhost:3001 only
+1. the api-server is runing on port 7182 and can communicate with localhost:3000, and localhost:3001 only
