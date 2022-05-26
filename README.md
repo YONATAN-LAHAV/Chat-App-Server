@@ -17,7 +17,8 @@ after cloning Chat-App-Client repository, do the following :
 
 ##
 
-now you have the client side which shows the chat and the server siden which shows the api funcitionalty on the swagger interface running on your local browser.
+now you have the client side which shows the chat and the server side which shows the api funcitionalty on the swagger interface running on your local browser.
 
-pay attention to the following:
+pay attention to the following :
+
 1)the api-server is runing on port 7182 and can communicate with localhost:3000, and localhost:3001 only
