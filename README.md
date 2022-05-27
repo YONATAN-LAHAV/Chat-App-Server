@@ -12,7 +12,7 @@
 ## Chat-App-Client instructions
 after cloning Chat-App-Client repository, do the following :
 1) open the terminal in the cloned folder
-2) type npm install
+2) type npm install (that may take a while)
 3) type npm start
 
 ##
@@ -22,3 +22,5 @@ now you have the client side which shows the chat and the server side which show
 pay attention to the following :
 
 1. the api-server is runing on localhost:7182 and can communicate with localhost:3000, and localhost:3001 only
+2. the program is using database, therefor the data is localy saved on the users computer, that is why the chat will be empty for any data, (users, messages, conversation...), in the first run, So register a few users, log in to them and add as many users, that you created, as you want to, send messages, and of course use the entire chat functionalty.
+3. we also created a Rate page where any person can rate our page. to see this page stop the web-api run, set, in visual studio, the Web-Server as the start up project and run it. the rate page will apper and will give you the full premmision to add edit delete and search rates.
