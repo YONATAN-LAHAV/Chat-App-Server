@@ -21,5 +21,7 @@ namespace ChatWebServer.Data
         public DbSet<ChatWebServer.Models.Message>? Message { get; set; }
 
         public DbSet<ChatWebServer.Models.User>? User { get; set; }
+
+        public DbSet<ChatWebServer.Models.Rate> Rate { get; set; }
     }
 }
