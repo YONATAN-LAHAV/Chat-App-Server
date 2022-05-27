@@ -6,7 +6,7 @@
  after cloning Chat-App-Server repository, do the following :
  1) open the solution on Visual Studio.
  2) set the Web-server as the strart-up project.
- 3) in the Package Manager Console type - update-database init
+ 3) in the Package Manager Console type - update-database initialization
  4) set the web-api as the start up project and run it
 
 ## Chat-App-Client instructions
