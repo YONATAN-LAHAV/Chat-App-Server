@@ -4,7 +4,7 @@
  
  ## Chat-App-Server instructions
  after cloning Chat-App-Server repository, do the following :
- 1) open the solution on Visual Studio.
+ 1) open the solution - ChatWebServer.sln on Visual Studio.
  2) set the Web-server as the strart-up project.
  3) in the Package Manager Console type - update-database initialization
  4) set the web-api as the start up project and run it
@@ -18,9 +18,10 @@ after cloning Chat-App-Client repository, do the following :
 ##
 
 now you have the client side which shows the chat and the server side which shows the api funcitionalty on the swagger interface running on your local browser.
+##
 
-pay attention to the following :
+## Pay attention to the following :
 
 1. the api-server is runing on localhost:7182 and can communicate with localhost:3000, and localhost:3001 only
-2. the program is using database, therefor the data is localy saved on the users computer, that is why the chat will be empty for any data, (users, messages, conversation...), in the first run, So register a few users, log in to them and add as many users, that you created, as you want to, send messages, and of course use the entire chat functionalty.
-3. we also created a Rate page where any person can rate our page. to see this page stop the web-api run, set, in visual studio, the Web-Server as the start up project and run it. the rate page will apper and will give you the full premmision to add edit delete and search rates.
+2. This program is using database, therefore the data is localy saved on the users computer, that is why the chat will be empty for any data, (users, messages, conversation...), in your first run. So for using the chat properly register a few users, log in to them and add as many users, that you created, as you want to, send messages, and of course use the entire chat funcitionalty.
+3. we also created a Rate page where any person can rate our page. to see this page stop the web-api run, setin  visual studio the Web-Server as the start up project and run it. the rate page will apper and will give you the full premmision to add edit delete and search rates.
